@@ -2,21 +2,21 @@ from config import ASSISTANT_NAME
 from helpers.bot_utils import BOT_NAME, USERNAME
 
 
-START_TEXT = f"👋🏻 **Hello**, \n\nThis is **{BOT_NAME}** \nI Can Stream Lives, Radios, YouTube Videos & Telegram Audio / Video Files On Voice Chat Of Telegram Groups. Let's Enjoy Cinematic View Of Group Video Player With Your Friends 😉! \n\n**Made With ❤️ By @ImSafone!** 👑"
+START_TEXT = f"👋🏻 **Salam**, \n\n Mən **{BOT_NAME}** \nFilim Botuyam. Radio, YouTube Videolar & Telegram Səsli / Üçün Yaradlımış Botam. Bot Yalnız @Vusaliw Tərəfindən 0dan Tərcümə edilib. 😉! \n\n**Translate Developer 🧑🏻‍💻 @Vusaliw!** 👑"
 HELP_TEXT = f"""
 🛠-- **Setting Up Bot**:--
 
-\u2022 Start Voice Chat In Your Group!
-\u2022 Add Me (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) To Your Group!
-\u2022 Give Admin To Me (@{USERNAME}) & My Assistant (@{ASSISTANT_NAME}) In Your Group!
+\u2022 Başla Səsli Söhbət!
+\u2022 Əlavə Edin (@{USERNAME}) & Mən Assistant (@{ASSISTANT_NAME}) Sizin Qrupunuza Gəlirəm!
+\u2022 Məni Admin Edin. (@{USERNAME}) & Mən Assistant (@{ASSISTANT_NAME}) Vüsala Dinən Assistantı Gətirsin!
 
-⚔️-- **Available Commands**:--
+⚔️-- **Botun Komutları**:--
 
-\u2022 `/play` - Stream An Audio
-\u2022 `/stream` - Stream An Video
-\u2022 `/pause` - Pause Current Stream
-\u2022 `/resume` - Resume Paused Stream
-\u2022 `/endstream` - End Stream & Left VC
-\u2022 `/restart` - Restart Bot (Sudo Only)
+\u2022 `/play` - Audio Adı.
+\u2022 `/stream` - Video Adı.
+\u2022 `/pause` - Pauza Eləmək.
+\u2022 `/resume` - Dəvam Eləmək.
+\u2022 `/endstream` - Radio'nu & Bağla
+\u2022 `/restart` - Yeniləmək Botu (Ulduz İsdifadəçilər)
 """
-ABOUT_TEXT = f"💡-- **Information**:-- \n\nThis bot is created for streaming videos in telegram group video chats using several methods from WebRTC. Powered by pytgcalls the async client API for the Telegram Group Calls and Pyrogram the telegram MTProto API Client Library and Framework in Pure Python for Users and Bots. \n\n**This bot licensed under GNU-GPL 3.0 License!**"
+ABOUT_TEXT = f"💡-- **Information**:-- \n\nSizdə 0 Dan Bot Tərcümə Etdirmək İstəyirsiniz? Əlaqə @Vusaliw 🔥. \n\n**bot donmadan işləyir!**"
